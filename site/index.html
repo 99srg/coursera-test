@@ -5,63 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cafeluta mirobolanta</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    section > p {
-      color: darkred;
-    }
-    section ul {
-      list-style: none;
-    }
-    #name {
-      color: gold;
-      font-size: 60px;
-    }
-    p.blue {
-  color: blue;
-    }
-    a:link , a:visited {
-      text-decoration: none;
-      background-color: grey;
-      border: 1px solid blue;
-      color: black;
-      display: block;
-      width: 200px;
-      text-align: center;
-      margin-bottom: 1px;
-    }
-    a:hover {
-      color: red;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:active {
-      color: yellow;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    li ol li:nth-child(odd) {
-      background-color: lightblue;
-      width: 150px;
-    }
-  </style>
 </head>
 <body>
-<h1 style="color: goldenrod; font-size: 60px; text-align: center;">Bonjour domnilor. Spor la cafeluta!</h1>
+<h1>Bonjour domnilor. Spor la cafeluta!</h1>
 <div id="name">Ni hao! Esti chinezat. Acum nu mai poti servi cafeluta. Ai nevoie de o cheie de dechinezare:</div>
 <section id="cheie">
 <button  id = 'demo' onclick="getElementById('demo').innerHTML = 'Savureaza cafeluta in liniste acum'">Cheie de dechinezare </button>
 </section>
 <div><audio src="chineserap.mp3" controls>
 </audio></div>
-<h3 id="top">Linkuri din aceeasi pagina</h3>
-<section>
+<h3 style="text-align: center; margin-left: 32px;" id="top">Linkuri din aceeasi pagina</h3>
+<section class="box">
   <ul>
     <li><a href="#tipuri">Tipuri de cafelute mafelute</a></li>
     <li><a href="#instructiuni">Instructiuni pt cafeluta</a></li>
     <li><a href="#varsata">Click sa versi cafeaua</a></li>
 </section>
 <section id="tipuri">
-<h2>Tipuri de cafelute mafelute</h2>
+<h2 class="style">Tipuri de cafelute mafelute</h2>
 <div>
   <a href="https://www.google.com/search?q=coffee+types&sxsrf=AOaemvL_EKLw33qot-DQbol6zK-t_cQVaw:1638437710704&tbm=isch&source=iu&ictx=1&fir=wRHMlrV9g886NM%252CFYzYntNCB1kYCM%252C_%253BeuOuHE8mLhm0wM%252CPht95Yc7BqzDaM%252C_%253Bca-e9JuchsjzDM%252CAgPA3HTIP4yImM%252C_%253Bwz8cJbL9FtJ6NM%252COxGjaIxTxYTQrM%252C_%253B0_Dqq8jEqDFYrM%252C74CFiDgKmy3ILM%252C_%253BlW7cv4JGunNw5M%252CrF2vEWHBoYfCCM%252C_%253BcLM-BQi9NB5zFM%252CUjhnhF9qXEE3lM%252C_%253BtbChV0R-K1F6yM%252CPht95Yc7BqzDaM%252C_%253BLCW5FdsSXA4TLM%252CGqmTtCR_7MBAoM%252C_%253BjC-0y0NxD_91aM%252CFYzYntNCB1kYCM%252C_%253BNeqg7zoZFcG73M%252COfkKUw92pQGY3M%252C_%253BNva6DBXTTKrUgM%252CVVcec3iPCXQ73M%252C_%253BiyMr7BqKp9kcnM%252CbSW2thisHtnc5M%252C_%253BNWqh0ShknVEgjM%252Cv_bfIJfYhklwRM%252C_%253Bp2HRR3n7eot0VM%252CBnN7Ixaa3kG0iM%252C_%253Bekj5Vxmf4pZ5FM%252CCnv4q0hEuwIAlM%252C_%253BiMWsSozo4EBJJM%252CQxeaboC1FbRNeM%252C_%253B6LS40KkFlJ1s_M%252CyFCtaPZToKsywM%252C_&vet=1&usg=AI4_-kT8NKZGXHdFSL5CbYCZdc95hWNPyA&sa=X&ved=2ahUKEwiGmu6N6MT0AhXWiv0HHaj-ALkQ9QF6BAgEEAE&biw=1536&bih=696&dpr=1.25#imgrc=wRHMlrV9g886NM">
     <img src="Types-of-coffee-drinks.gif">
@@ -107,8 +68,7 @@
 <footer>
   <hr>
   <section id="varsata">
-  <p style="text-align: center;"
-  onclick="alert('Fa alta');">
+  <p onclick="alert('Fa alta');">
   S-a varsat cafeluta. Click pentru a repara 
 </section>
 <p class="blue">Cafeluta CSS</p>
