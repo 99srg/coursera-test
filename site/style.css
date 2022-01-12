@@ -3,6 +3,14 @@
   	justify-content: center;
     font-family: Times New Roman", Times, serif;
 	}
+  .row {
+    margin-bottom: 15px;
+  }
+  .row > div {
+    border: 2px solid red;
+    background-color: gray;
+  }
+  }
   body {
     margin: 8px;
     padding: 8px;
